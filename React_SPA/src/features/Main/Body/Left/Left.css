@@ -1,0 +1,113 @@
+.Main_div{
+    width: 275px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 80px;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    border-radius: 50%;
+}
+.main_a{
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+.logo:hover{
+    background-color: rgb(220, 222, 225);
+}
+.logo img{
+    filter: invert(64%) sepia(42%) saturate(7236%) hue-rotate(180deg) brightness(98%) contrast(92%);
+}
+.tweet{
+    width: 100%;
+}
+.tweet_button{
+    width: 80%;
+    padding: 12px;
+    padding-top: 15px;
+    display: flex;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D9AF1;
+    border-radius: 30px;
+    
+}
+.tweet_button:hover {
+    background-color: #1f8ddb;
+}
+span{
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.profile{
+    width: 100%;
+    margin-top: auto;
+    /* border: solid; */
+}
+.profile_div{
+    display: flex;
+    padding: 10px 0;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.profile:hover .profile_div{
+    background-color: rgb(220, 222, 225);
+}
+.profile_img{
+    object-fit: cover;
+    position: relative;
+    left: 0;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.profile_more{
+    margin-left: auto;
+    padding: 10px;
+}
+#profile{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0px;
+    margin-right: auto;
+    padding-left: 0px;
+}
+#profile_name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+}
+#profile_id{
+    color: #8ea8b9;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+.profile_div #profile_name{
+    line-height: 30px;
+}
+.profile_div #profile_id{
+    line-height: 20px;
+}
